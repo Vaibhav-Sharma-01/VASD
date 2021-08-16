@@ -131,7 +131,7 @@ const Room = (props) => {
   };
 
   const callend = () => {
-    window.location.href = "http://localhost:3000";
+    window.location.href = "https://vasd.vercel.app";
     streams.getTracks().stop();
   };
 
@@ -162,12 +162,12 @@ const Room = (props) => {
   };
 
   const chat = () => {
-    window.location.href = "http://localhost:3000";
+    window.location.href = "https://vasd.vercel.app/";
     streams.getTracks().stop();
   };
 
   const rcd = () => {
-    window.location.href = "http://localhost:3000";
+    window.location.href = "https://vasd.vercel.app/";
     streams.getTracks().stop();
   };
 
